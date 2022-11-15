@@ -1,0 +1,13 @@
+- name: Login to dockerHub
+  docker_login:
+    username: dadoulanda
+    password: 203JMT1888
+    reauthorize: yes
+- name: Tag and push to docker hub
+  docker_image:
+    name: aminemokaddem/devops
+    repository: aminemokaddem/devops
+    tag: latest
+    push: yes
+    source: local
+
