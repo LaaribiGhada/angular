@@ -5,7 +5,7 @@
     reauthorize: yes
 - name: Tag and push to docker hub
   docker_image:
-    name: dadoulanda/angulardevops
+    name: dadoulanda/angulardevops:latest
     repository: dadoulanda/angulardevops
     tag: latest
     push: yes
