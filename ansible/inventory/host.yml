@@ -1,0 +1,8 @@
+localhost ansible_connection=local
+
+[server]
+localhost
+
+[serever:vars]
+ansible_python_interpreter = /usr/bin/python3
+ansi_user=jenkins
