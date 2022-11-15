@@ -1,6 +1,6 @@
 - name: Login to dockerHub
   docker_login:
-    username: ghada.laaribi@esprit.tn
+    username: dadoulanda
     password: 203JMT1888
     reauthorize: yes
 - name: Tag and push to docker hub
