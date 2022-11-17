@@ -1,12 +1,12 @@
 - name: Login to dockerHub
   docker_login:
-    username: dadoulanda
-    password: 203JMT1888
+    username: "dadoulanda"
+    password: "203JMT1888"
     reauthorize: yes
 - name: Tag and push to docker hub
   docker_image:
-    name: dadoulanda/angulardevops:latest
-    repository: dadoulanda/angulardevops:latest
+    name: dadoulanda/angular:latest
+    repository: dadoulanda/angular:latest
     tag: latest
     push: yes
     source: local
