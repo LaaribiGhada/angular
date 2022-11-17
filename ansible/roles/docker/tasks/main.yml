@@ -10,7 +10,7 @@
     force_source: true
 - name: run docker container
   docker_container:
-    name: myappcontainer
+    name: angular
     image: dadoulanda/angular:latest
     state: started
     recreate: true
