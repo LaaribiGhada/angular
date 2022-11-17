@@ -6,7 +6,7 @@
 - name: Tag and push to docker hub
   docker_image:
     name: dadoulanda/angular:latest
-    repository: dadoulanda/front
+    repository: dadoulanda/frontangular
     tag: latest
     push: yes
     source: local
